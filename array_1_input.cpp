@@ -12,6 +12,7 @@ for(int i = 0; i<5; i++){
 cout << "Marks are : ";
 for(int i=0; i<5;i++){
     cout << marks[i] << " ";
+
 }
 
 }
