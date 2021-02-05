@@ -17,5 +17,9 @@ int main(){
     alim.id = 333;
     alim.gpa = 3.345;
     alim.display();
+
+    hero.id =33434;
+    hero.gpa= 4.55;
+    hero.display();
 getch();
 }
