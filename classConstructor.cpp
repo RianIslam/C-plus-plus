@@ -11,6 +11,12 @@ void display()
 {
     cout<< id << " " << gpa << endl;
 }
+Student(int x,double y)
+{
+
+    id =x;
+    gpa = y;
+}
 
 
 };
