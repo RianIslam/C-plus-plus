@@ -9,17 +9,19 @@ double gpa;
 void display(){
 cout << id << " " << gpa<< endl;
 }
+void setValue(int x,double y){
+
+    id = x;
+    gpa = y;
+}
 
 };
 
 int main(){
     Student alim,hero;
-    alim.id = 333;
-    alim.gpa = 3.345;
+    alim.setValue(29,3.6);
     alim.display();
-
-    hero.id =33434;
-    hero.gpa= 4.55;
+    hero.setValue(34,4.6);
     hero.display();
 getch();
 }
